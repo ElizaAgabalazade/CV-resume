@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #F1F1F1;
+}
 section {
     display: flex;
     width: 100%;
     justify-content: space-around;
     margin-top: 10px;
+    background-color: #fff;
 }
 
 .section_left {
@@ -16,8 +19,10 @@ section {
     height: auto;
     /* background-color: tomato; */
     box-shadow: 3px, 3px, 3px, 3px rgb(20, 20, 20);
-    border-color: aqua;
+    border: 3px solid grey;
     position: relative;
+    background-color: #fff;
+
 
     img {
         width: 100%;
@@ -71,7 +76,6 @@ section {
         padding-left: 10px;
     }
     p {
-        bac
         font-size: 18px;
         padding-left: 15px;
         
@@ -84,5 +88,85 @@ section {
 }
 
 .section_right {
-    width: 60%;
+    width: 65%;
+}
+.section_right_card_1{
+    border: 1px solid grey ;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #fff;
+
+    h1{
+        margin: 10px 10px;
+        padding: 20px;
+    }
+    h6{
+        font-size: 18px;
+        padding: 10px;
+        color: grey;
+        
+    }
+    span{
+        margin: 10px 0;
+        background-color: #009688;
+        color: #fff;
+    }
+    p{
+        padding-top: 10px;
+    }
+    hr{
+        margin-top: 40px;
+    }
+}
+.calendar_1{
+    color: #009688;
+
+}
+.section_right_card_2{
+    margin: 30px;
+    background-color: #fff;
+
+    h6{
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 10px;
+        color: grey;        
+    }
+    hr{
+        margin-top: 20px;
+    }
+    p{
+        padding-top: 20px;
+    }
+}
+footer{
+    margin-top: 20px;
+    background-color: #009688;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    ul{
+        
+        display: flex;
+        
+    }
+    li{
+        list-style-type: none;
+        color: #fff;
+        text-align: center;
+        align-items: center;
+    }
+    i{
+        text-align: center;
+        padding-left: 5px;
+    }
+    a{
+        color: #fff;
+    }
+}
+li:hover{
+    background-color: grey;
 }
